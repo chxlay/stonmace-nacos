@@ -19,14 +19,12 @@
         <maven.compiler.source>${jdk.version}</maven.compiler.source>
         <maven.compiler.target>${jdk.version}</maven.compiler.target>
 
-
-        <!-- Spring 版本管理 -->
-        <spring-boot.version>2.7.5</spring-boot.version>
-        <!-- SpringCloud 版本管理 -->
+        <!-- Spring 版本管理,与官方nacos源码中版本保持一直 -->
+        <spring-boot.version>2.6.8</spring-boot.version>
+        <!-- SpringCloud 版本管理，与官方nacos源码中版本保持一直 -->
         <spring-cloud.version>2021.0.5</spring-cloud.version>
         <!-- spring-阿里巴巴 相关-->
         <spring-cloud-alibaba.version>2021.0.4.0</spring-cloud-alibaba.version>
-
         <!-- Nacos 服务版本，与阿里巴巴nacos 版本保持一致：https://nacos.io/zh-cn/ -->
         <nacos-server.version>2.2.0</nacos-server.version>
 

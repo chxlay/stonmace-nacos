@@ -7,11 +7,11 @@ server:
 # 数据库存储存储配置文件
 db:
   num: 1
-  host: ${MYSQL_HOST:xtechcn_mysql}
+  host: ${MYSQL_HOST:iserver-mysql}
   port: ${MYSQL_PORT:3306}
-  database: ${MYSQL_DB:xtechcn_nacos}
+  database: ${MYSQL_DB:iserver_nacos}
   user: ${MYSQL_USER:root}
-  password: ${MYSQL_PWD:asia8888}
+  password: ${MYSQL_PWD:root}
   url:
     0: jdbc:mysql://${db.host}:${db.port}/${db.database}?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
 
@@ -45,7 +45,7 @@ spring:
       client:
         url: http://iserver-monitor:5001
         username: iserver
-        password: 88888888
+        password: iserver888888
         instance:
           prefer-ip: true
     application:
