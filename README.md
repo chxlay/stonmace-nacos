@@ -1,4 +1,9 @@
-### 这是整合 nacos 到自己微服务运行的核心模块，后续 alibaba 官方更新新的版本同样是主要更新此模块即可
+### 这是整合 nacos 源码模式启动的方式整合 Nacos服务到自己微服务示例项目
+#### 源码来自 alibaba 官方开源项目： [nacos](https://github.com/alibaba/nacos)
+#### 文献参考 ：[Nacos官方文档](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html)
+
+### **申明：此模式仅仅适用于开发环境，便于开发者灵活使用, 正式环境请直接使用 Nacos 官方镜像进行发布部署**
+
 ### [参考个人博客](https://www.cnblogs.com/Alay/p/15116662.html)
 
 ### 使用说明
@@ -9,6 +14,9 @@
 
 #### 3、 修改配置文件/resource/application.yml 文件中配置
 ![img.png](images/配置文件修改.png)
+
+
+
 
 ### 整合/升级说明
 #### 1、下载 阿里巴巴  [官方源码](https://github.com/alibaba/nacos/tags)
