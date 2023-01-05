@@ -1,6 +1,7 @@
 ### 这是整合 nacos 到自己微服务运行的核心模块，后续 alibaba 官方更新新的版本同样是主要更新此模块即可
+### [参考博客](https://www.cnblogs.com/Alay/p/15116662.html)
 
-#### 版本更新
+### 使用说明
 #### 1、下载 阿里巴巴  [官方源码](https://github.com/alibaba/nacos/tags)
 ##### 进入官方源码库
 
