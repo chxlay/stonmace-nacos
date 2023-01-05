@@ -10,7 +10,7 @@
 #### 3、 修改配置文件/resource/application.yml 文件中配置
 ![img.png](images/配置文件修改.png)
 
-### 整合说明
+### 整合/升级说明
 #### 1、下载 阿里巴巴  [官方源码](https://github.com/alibaba/nacos/tags)
 ##### 进入官方源码库
 
