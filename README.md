@@ -12,7 +12,7 @@
 #### 2、创建数据库,执行 SQL 脚本,为nacos 持久化DB 做准备（MySQL 为例）
 ![img.png](images/sql.png)
 
-#### 3、 修改配置文件/resource/application.yml 文件中配置
+#### 3、 修改配置文件/resource/application.yml 文件中配置（可查看官方示例配置/resource/example）
 ![img.png](images/配置文件修改.png)
 
 
