@@ -11,9 +11,8 @@ services:
     ports:
       # Nacos 服务端口
       - "8848:8848"
-      # Grpc 连接端口
+      # grpc 连接端口,这是Nacos2.0后增加的,记得防火墙或白名单放行此端口号,否则启动报错: Client not connected, current status:STARTING
       - "9848:9848"
-      - "9555:9555"
     volumes:
       - '${NOCOS_DATA}/logs:/home/nacos/logs'
     network_mode: 'host'
