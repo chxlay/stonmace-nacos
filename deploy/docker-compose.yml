@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  # 阿里巴巴 Nacos 注册中心/配置中心
+  iserver-nacos:
+    env_file:
+      - './nacos-standlone.env'
+    image: nacos/nacos-server:${NACOS_VERSION}
+    container_name: iserver-nacos
+    restart: always
+    ports:
+      - "8848:8848"
+    volumes:
+      - '${NOCOS_DATA}/logs:/home/nacos/logs'
+    network_mode: 'host'

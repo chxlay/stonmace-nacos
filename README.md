@@ -18,7 +18,7 @@
 
 
 
-### 整合/升级说明
+### 整合说明
 #### 1、下载 阿里巴巴  [官方源码](https://github.com/alibaba/nacos/tags)
 ##### 进入官方源码库
 
@@ -35,3 +35,14 @@
 ![img.png](images/解压展示.png)
 
 ##### 整合和升级 nacos 源码，只需要将 console 模块拷贝到项目中即可
+
+### 升级说明
+#### 1、如果项目中已经使用了低版本的 Nacos,需要升级（v2.2.0）版本
+#### 2、对数据库表 config_info 新增字段 encrypted_data_key （秘钥）即可, 如下图
+![img_2.png](images/升级表结构.png)
+
+
+### 部署说明
+#### 1、部署请以 Nacos 官方部署文档为准 [官方部署](https://github.com/nacos-group/nacos-docker)
+#### 2、这是个人根据官方部署说明结合自己项目进行的部署 [示例](deploy) 抛砖引玉
+
