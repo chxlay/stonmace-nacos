@@ -9,7 +9,9 @@ services:
     container_name: iserver-nacos
     restart: always
     ports:
+      # Nacos 服务端口
       - "8848:8848"
+      # Grpc 连接端口
       - "9848:9848"
       - "9555:9555"
     volumes:
