@@ -38,7 +38,7 @@
 
 ### 升级说明
 #### 1、如果项目中已经使用了低版本的 Nacos,需要升级（v2.2.0 截止2023-01-06 是最新版）版本
-#### 2、对数据库表 config_info 新增字段 encrypted_data_key （秘钥）即可, 如下图
+#### 2、对数据库 表config_info 和 表his_config_info 新增字段 encrypted_data_key （秘钥）即可, 如下图
 ![img_2.png](images/升级表结构.png)
 
 
